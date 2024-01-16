@@ -70,7 +70,7 @@ This project adheres to the Code of Conduct adapted from the
 ## Changelog
 
 All notable changes to this project will be documented [in this
-file](00_General/99_Changelog.ipynb).
+file](https://ifctruss.github.io/IfcTruss/04_History_and_Changelog/changelog.html).
 
 The format is based on [Keep a
 Changelog](https://keepachangelog.com/en/1.0.0/), and this project
