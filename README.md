@@ -42,8 +42,9 @@ also be used below without IFC:
     ifctruss.solver.direct_stiffness_method
     ifctruss.solver.calfem
 
-Go to the [Getting Started](00_General/00_Getting_Started.ipynb) page to
-learn more about using this library.
+Go to the [Getting
+Started](https://ifctruss.github.io/IfcTruss/00_General/getting_started.html)
+page to learn more about using this library.
 
 ## Feedback
 
