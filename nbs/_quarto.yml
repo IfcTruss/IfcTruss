@@ -1,0 +1,32 @@
+project:
+  type: website
+  render:
+    - index.ipynb
+    - 00_General/*.ipynb
+    - 02_API/*.ipynb
+    - 04_History_and_Changelog/*.ipynb
+
+format:
+  html:
+    theme:
+     light: flatly
+     dark: darkly
+    css: styles.css
+    toc: true
+
+website:
+  reader-mode: true
+  open-graph: true
+  page-footer: "Copyright © 2023-2024  IfcTruss Contributors"
+  repo-actions: [issue, edit]
+  sidebar:
+    search: true
+    style: floating
+    contents:
+    - index.ipynb
+    - auto: "00_General/*.ipynb"
+    - section: API
+      contents: 02_API/*.ipynb
+    - auto: "04_History_and_Changelog/*.ipynb"
+
+metadata-files: [nbdev.yml]

@@ -1,0 +1,6 @@
+include settings.ini
+include COPYING
+include COPYING.LESSER
+include CONTRIBUTING.md
+include README.md
+recursive-exclude * __pycache__

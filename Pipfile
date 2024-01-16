@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "~=1.24.4"
+pandas =  "*"
+ifcopenshell = "*"
+lark = "*"
+calfem-python-small = "*"
+openpyxl = "*"
+odfpy = "*"
+fastcore = "*"
+
+[dev-packages]
+rich = "*"
+jupyterlab = "*"
+jupyterlab-quarto = "*"
+jupyterlab-lsp = "*"
+nbqa = "*"
+nbdev = "*"
+black = "*"
+python-lsp-ruff = "*"
+ruff = "*"
+ifctruss = {editable = true, path = "."}
+
+[requires]
+python_version = "3.11"

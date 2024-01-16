@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "IfcTruss"
+  site-url: "https://IfcTruss.github.io/IfcTruss"
+  description: "Create and calculate trusses in IFC's"
+  repo-branch: main
+  repo-url: "https://github.com/IfcTruss/IfcTruss"
