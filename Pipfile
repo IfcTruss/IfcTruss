@@ -25,6 +25,7 @@ black = "*"
 python-lsp-ruff = "*"
 ruff = "*"
 ifctruss = {editable = true, path = "."}
+twine = "*"
 
 [requires]
 python_version = "3.11"
