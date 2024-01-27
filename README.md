@@ -14,7 +14,9 @@
 
 ## Purpose
 
-This library is used to create and calculate trusses in the [Industry
+IfcTruss is an open source
+([LGPL-3.0-or-later](https://github.com/IfcTruss/IfcTruss/blob/main/COPYING.LESSER))
+software library for creating and calculating trusses in the [Industry
 Foundation Classes
 (IFC)](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/)
 standard. More precisely, the IFC 4.3 version is supported. This version
