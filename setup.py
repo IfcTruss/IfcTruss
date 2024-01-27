@@ -14,7 +14,7 @@ for o in expected: assert o in cfg, "missing expected setting: {}".format(o)
 setup_cfg = {o:cfg[o] for o in cfg_keys}
 
 licenses = {
-    "lgpl3": ('GNU Lesser General Public License v3', 'OSI Approved :: GNU Lesser General Public License v3 (LGPL-3.0-or-later)'),
+    "lgpl3": ('GNU Lesser General Public License v3', 'OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)'),
 
 }
 statuses = [ '1 - Planning', '2 - Pre-Alpha', '3 - Alpha',
@@ -34,7 +34,7 @@ setuptools.setup(
     name = cfg['lib_name'],
     license = lic[0],
     classifiers = [
-        'Development Status :: ' + statuses[int(cfg['status'])],
+        'Development Status :: ' + statuses[int(cfg['status'])-1],
         'Intended Audience :: ' + cfg['audience'].title(),
         'Natural Language :: ' + cfg['language'].title(),
     ] + ['Programming Language :: Python :: '+o for o in py_versions[py_versions.index(min_python):]] + (['License :: ' + lic[1] ] if lic[1] else []),
