@@ -315,7 +315,9 @@ def create_normal_force_df(self: CALFEM):
     self.normal_force_df["Type_of_normal_force"] = self.normal_force_df[
         "Normal_force"
     ].apply(
-        lambda x: "Tensile force"
-        if x > 0
-        else ("Compressive force" if x < 0 else "Zero-force")
+        lambda x: (
+            "Tensile force"
+            if x > 0
+            else ("Compressive force" if x < 0 else "Zero-force")
+        )
     )

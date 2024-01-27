@@ -12,6 +12,7 @@ calfem-python-small = "*"
 openpyxl = "*"
 odfpy = "*"
 fastcore = "*"
+pyarrow = "*"
 
 [dev-packages]
 rich = "*"
