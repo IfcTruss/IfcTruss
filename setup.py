@@ -26,7 +26,7 @@ if cfg.get('pip_requirements'): requirements += shlex.split(cfg.get('pip_require
 min_python = cfg['min_python']
 lic = licenses.get(cfg['license'].lower(), (cfg['license'], None))
 dev_requirements = (cfg.get('dev_requirements') or '').split()
-odf_requirements = (cfg.get('odf_requirements') or '').split()
+ods_requirements = (cfg.get('ods_requirements') or '').split()
 xlsx_requirements = (cfg.get('xlsx_requirements') or '').split()
 calfem_requirements = (cfg.get('calfem_requirements') or '').split()
 
@@ -42,7 +42,7 @@ setuptools.setup(
     packages = setuptools.find_packages(),
     include_package_data = True,
     install_requires = requirements,
-    extras_require={ 'dev': dev_requirements, "odf": odf_requirements, "xlsx": xlsx_requirements,
+    extras_require={ 'dev': dev_requirements, "ods": ods_requirements, "xlsx": xlsx_requirements,
                     "calfem": calfem_requirements},
     dependency_links = cfg.get('dep_links','').split(),
     python_requires  = '>=' + cfg['min_python'],
