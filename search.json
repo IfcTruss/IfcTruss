@@ -1,0 +1,290 @@
+[
+  {
+    "objectID": "04_History_and_Changelog/changelog.html",
+    "href": "04_History_and_Changelog/changelog.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.",
+    "crumbs": [
+      "Changelog"
+    ]
+  },
+  {
+    "objectID": "04_History_and_Changelog/changelog.html#section",
+    "href": "04_History_and_Changelog/changelog.html#section",
+    "title": "Changelog",
+    "section": "0.1.4 - 2024-01-27",
+    "text": "0.1.4 - 2024-01-27\n\nFixed\n\nSpelling mistake corrected",
+    "crumbs": [
+      "Changelog"
+    ]
+  },
+  {
+    "objectID": "04_History_and_Changelog/changelog.html#section-1",
+    "href": "04_History_and_Changelog/changelog.html#section-1",
+    "title": "Changelog",
+    "section": "0.1.3 - 2024-01-27",
+    "text": "0.1.3 - 2024-01-27\n\nFixed\n\nError in Extra name on PyPI fixed",
+    "crumbs": [
+      "Changelog"
+    ]
+  },
+  {
+    "objectID": "04_History_and_Changelog/changelog.html#section-2",
+    "href": "04_History_and_Changelog/changelog.html#section-2",
+    "title": "Changelog",
+    "section": "0.1.2 - 2024-01-27",
+    "text": "0.1.2 - 2024-01-27\n\nFixed\n\nError in Dependence version on PyPI fixed",
+    "crumbs": [
+      "Changelog"
+    ]
+  },
+  {
+    "objectID": "04_History_and_Changelog/changelog.html#section-3",
+    "href": "04_History_and_Changelog/changelog.html#section-3",
+    "title": "Changelog",
+    "section": "0.1.1 - 2024-01-27",
+    "text": "0.1.1 - 2024-01-27\n\nFixed\n\nError in metadata on PyPI fixed",
+    "crumbs": [
+      "Changelog"
+    ]
+  },
+  {
+    "objectID": "04_History_and_Changelog/changelog.html#section-4",
+    "href": "04_History_and_Changelog/changelog.html#section-4",
+    "title": "Changelog",
+    "section": "0.1.0 - 2024-01-27",
+    "text": "0.1.0 - 2024-01-27\n\nAdded\n\nFirst beta release",
+    "crumbs": [
+      "Changelog"
+    ]
+  },
+  {
+    "objectID": "02_API/index.html",
+    "href": "02_API/index.html",
+    "title": "API",
+    "section": "",
+    "text": "This section contains API details for each of IfcTruss’s python modules.\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nifctruss\n\n\nCore function of IfcTruss\n\n\n\n\nifctruss.solver\n\n\nAll solvers that are supported\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "API"
+    ]
+  },
+  {
+    "objectID": "02_API/ifctruss.html",
+    "href": "02_API/ifctruss.html",
+    "title": "ifctruss",
+    "section": "",
+    "text": "source\n\n\n\n save_ods_template (ods_path:str='ifctruss-template.ods',\n                    load_groups:bool=False)\n\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nods_path\nstr\nifctruss-template.ods\nPath to ods file\n\n\nload_groups\nbool\nFalse\nCreate worksheet for information regarding IfcStructuralLoadGroup’s\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf load_groups is False, no worksheet Load_Groups will be created.\n\n\n\nsource\n\n\n\n\n save_xlsx_template (xlsx_path:str='ifctruss-template.xlsx',\n                     load_groups:bool=False)\n\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nxlsx_path\nstr\nifctruss-template.xlsx\nPath to xlsx file\n\n\nload_groups\nbool\nFalse\nCreate worksheet for information regarding IfcStructuralLoadGroup’s\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf load_groups is False, no worksheet Load_Groups will be created.",
+    "crumbs": [
+      "API",
+      "ifctruss"
+    ]
+  },
+  {
+    "objectID": "02_API/ifctruss.html#create-spreadsheet-template",
+    "href": "02_API/ifctruss.html#create-spreadsheet-template",
+    "title": "ifctruss",
+    "section": "",
+    "text": "source\n\n\n\n save_ods_template (ods_path:str='ifctruss-template.ods',\n                    load_groups:bool=False)\n\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nods_path\nstr\nifctruss-template.ods\nPath to ods file\n\n\nload_groups\nbool\nFalse\nCreate worksheet for information regarding IfcStructuralLoadGroup’s\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf load_groups is False, no worksheet Load_Groups will be created.\n\n\n\nsource\n\n\n\n\n save_xlsx_template (xlsx_path:str='ifctruss-template.xlsx',\n                     load_groups:bool=False)\n\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nxlsx_path\nstr\nifctruss-template.xlsx\nPath to xlsx file\n\n\nload_groups\nbool\nFalse\nCreate worksheet for information regarding IfcStructuralLoadGroup’s\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf load_groups is False, no worksheet Load_Groups will be created.",
+    "crumbs": [
+      "API",
+      "ifctruss"
+    ]
+  },
+  {
+    "objectID": "02_API/ifctruss.html#build-a-ifc",
+    "href": "02_API/ifctruss.html#build-a-ifc",
+    "title": "ifctruss",
+    "section": "Build a IFC",
+    "text": "Build a IFC\n\nsource\n\nbuild\n\n build (nodes:pandas.core.frame.DataFrame,\n        bars:pandas.core.frame.DataFrame,\n        point_loads:pandas.core.frame.DataFrame,\n        load_groups:pandas.core.frame.DataFrame|None=None)\n\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nnodes\nDataFrame\n\nPandas DataFrame with information regarding IfcStructuralPointConnection’s\n\n\nbars\nDataFrame\n\nPandas DataFrame with information regarding IfcStructuralCurveMember’s\n\n\npoint_loads\nDataFrame\n\nPandas DataFrame with information regarding IfcStructuralLoadSingleForce’s\n\n\nload_groups\npandas.core.frame.DataFrame | None\nNone\n\n\n\nReturns\nfile\n\nIFC model\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf load_groups is None, only one IfcStructuralLoadGroup is created and all IfcStructuralLoadSingleForce are related to it.\n\n\n\nsource\n\n\nbuild_from_ods\n\n build_from_ods (ods_path:str)\n\n\n\n\n\nType\nDetails\n\n\n\n\nods_path\nstr\nPath to ods file\n\n\nReturns\nfile\nIFC model\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf there is no worksheet Load_Groups, only one IfcStructuralLoadGroup is created and all IfcStructuralLoadSingleForce are related to it.\n\n\n\nsource\n\n\nbuild_from_xlsx\n\n build_from_xlsx (xlsx_path:str)\n\n\n\n\n\nType\nDetails\n\n\n\n\nxlsx_path\nstr\nPath to xlsx file\n\n\nReturns\nfile\nIFC model\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf there is no worksheet Load_Groups, only one IfcStructuralLoadGroup is created and all IfcStructuralLoadSingleForce are related to it.",
+    "crumbs": [
+      "API",
+      "ifctruss"
+    ]
+  },
+  {
+    "objectID": "02_API/ifctruss.html#view-as-dataframe",
+    "href": "02_API/ifctruss.html#view-as-dataframe",
+    "title": "ifctruss",
+    "section": "View as DataFrame",
+    "text": "View as DataFrame\n\nsource\n\nview\n\n view (model:ifcopenshell.file.file,\n       structural_analysis_model:str|None=None, load_group:str|None=None,\n       result_group:str|bool=False)\n\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nmodel\nfile\n\nIFC model\n\n\nstructural_analysis_model\nstr | None\nNone\n\n\n\nload_group\nstr | None\nNone\nstr: IfcStructuralLoadGroup GlobalId\n\n\nresult_group\nstr | bool\nFalse\n\n\n\nReturns\nNamedTuple\n\nNamedTuple with Pandas DataFrame’s (and str’s)\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf structural_analysis_model=None or load_group=None or result_group=True: IfcStructuralAnalysisModel or IfcStructuralLoadGroup or IfcStructuralResultGroup will be searched and if there is only one possibility, also used, if not, the user will be requested to provide the respective GlobalId. If result_group is False, there will be no attempt to fetch the information regarding the IfcStructuralResultGroup.",
+    "crumbs": [
+      "API",
+      "ifctruss"
+    ]
+  },
+  {
+    "objectID": "02_API/ifctruss.html#calculate-and-save-result-in-ifc",
+    "href": "02_API/ifctruss.html#calculate-and-save-result-in-ifc",
+    "title": "ifctruss",
+    "section": "Calculate and save result in IFC",
+    "text": "Calculate and save result in IFC\n\nsource\n\nsave_result\n\n save_result (model:ifcopenshell.file.file,\n              displacments:pandas.core.frame.DataFrame,\n              forces:pandas.core.frame.DataFrame,\n              normal_forces:pandas.core.frame.DataFrame, theory_type:str,\n              is_linear:str, structural_analysis_model:str|None=None,\n              load_group:str|None=None)\n\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nmodel\nfile\n\nIFC model\n\n\ndisplacments\nDataFrame\n\nPandas DataFrame with information regarding IfcStructuralPointReaction IfcStructuralLoadSingleDisplacement\n\n\nforces\nDataFrame\n\nPandas DataFrame with information regarding IfcStructuralPointReaction IfcStructuralLoadSingleForce\n\n\nnormal_forces\nDataFrame\n\nPandas DataFrame with information regarding IfcStructuralCurveReaction\n\n\ntheory_type\nstr\n\nIfcStructuralResultGroup TheoryType\n\n\nis_linear\nstr\n\nIfcStructuralResultGroup IsLinear\n\n\nstructural_analysis_model\nstr | None\nNone\n\n\n\nload_group\nstr | None\nNone\nstr: IfcStructuralLoadGroup GlobalId\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf structural_analysis_model=None or load_group=None: IfcStructuralAnalysisModel or IfcStructuralLoadGroup will be searched and if there is only one possibility, also used, if not, the user will be requested to provide the respective GlobalId.\n\n\n\nsource\n\n\nsolve\n\n solve (model:ifcopenshell.file.file, structural_analysis_model=None,\n        load_group=None, solver='direct_stiffness_method')\n\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nmodel\nfile\n\nIFC model\n\n\nstructural_analysis_model\nNoneType\nNone\nstr: IfcStructuralAnalysisModel GlobalId\n\n\nload_group\nNoneType\nNone\nstr: IfcStructuralLoadGroup GlobalId\n\n\nsolver\nstr\ndirect_stiffness_method\nstr: [“direct_stiffness_method”, “calfem”]\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf structural_analysis_model=None or load_group=None: IfcStructuralAnalysisModel or IfcStructuralLoadGroup will be searched and if there is only one possibility, also used, if not, the user will be requested to provide the respective GlobalId.",
+    "crumbs": [
+      "API",
+      "ifctruss"
+    ]
+  },
+  {
+    "objectID": "00_General/getting_started.html",
+    "href": "00_General/getting_started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "The only thing you need to install IfcTruss is Python itself. The minimum Python version required is 3.11.\npip install ifctruss\nFor more information, see Installation",
+    "crumbs": [
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "00_General/getting_started.html#installation",
+    "href": "00_General/getting_started.html#installation",
+    "title": "Getting Started",
+    "section": "",
+    "text": "The only thing you need to install IfcTruss is Python itself. The minimum Python version required is 3.11.\npip install ifctruss\nFor more information, see Installation",
+    "crumbs": [
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "00_General/getting_started.html#tutorial",
+    "href": "00_General/getting_started.html#tutorial",
+    "title": "Getting Started",
+    "section": "Tutorial",
+    "text": "Tutorial\nHere, we will show you how to use this library. First import the following library.\n\nimport ifcopenshell\nimport ifctruss\nimport pandas as pd\n\n\nBuild\nTo construct an IFC from scratch, we will utilize the build function of ifctruss. For this aim, we need first to create three DataFrame’s with information regarding the nodes, bars, and point loads:\n\nnodes = pd.DataFrame(\n    {\n        \"Node\": pd.Series([2, 1, 3, 4], dtype=int),\n        \"Coordinate_X\": pd.Series([0, 0, -4e3, -4e3], dtype=float),\n        \"Coordinate_Y\": pd.Series([0, 0, 0, 0], dtype=float),\n        \"Coordinate_Z\": pd.Series([3e3, 0, 3e3, 6e3], dtype=float),\n        \"Translational_X\": pd.Series([0, 1, 1, 1], dtype=bool),\n        \"Translational_Y\": pd.Series([1, 1, 1, 1], dtype=bool),\n        \"Translational_Z\": pd.Series([0, 1, 1, 1], dtype=bool),\n    }\n)\n\nnodes\n\n\n\n\n\n\n\n\n\nNode\nCoordinate_X\nCoordinate_Y\nCoordinate_Z\nTranslational_X\nTranslational_Y\nTranslational_Z\n\n\n\n\n0\n2\n0.0\n0.0\n3000.0\nFalse\nTrue\nFalse\n\n\n1\n1\n0.0\n0.0\n0.0\nTrue\nTrue\nTrue\n\n\n2\n3\n-4000.0\n0.0\n3000.0\nTrue\nTrue\nTrue\n\n\n3\n4\n-4000.0\n0.0\n6000.0\nTrue\nTrue\nTrue\n\n\n\n\n\n\n\n\n\nbars = pd.DataFrame(\n    {\n        \"Bar\": pd.Series([1, 2, 3], dtype=int),\n        \"Start_node\": pd.Series([2, 2, 2], dtype=int),\n        \"End_node\": pd.Series([1, 3, 4], dtype=int),\n        \"Cross-sectional_area\": pd.Series([1e3, 1e3, 1e3], dtype=float),\n        \"Modulus_of_elasticity\": pd.Series([1e3, 1e3, 1e3], dtype=float),\n    }\n)\n\nbars\n\n\n\n\n\n\n\n\n\nBar\nStart_node\nEnd_node\nCross-sectional_area\nModulus_of_elasticity\n\n\n\n\n0\n1\n2\n1\n1000.0\n1000.0\n\n\n1\n2\n2\n3\n1000.0\n1000.0\n\n\n2\n3\n2\n4\n1000.0\n1000.0\n\n\n\n\n\n\n\n\n\npoint_loads = pd.DataFrame(\n    {\n        # fmt: off\n    \"Point_Load\": pd.Series([1,], dtype=int,),\n    \"Node\": pd.Series([2,], dtype=int,),\n    \"Force_X\": pd.Series([100e3,], dtype=float,),\n    \"Force_Y\": pd.Series([0,], dtype=float,),\n    \"Force_Z\": pd.Series([-100e3,], dtype=float,),\n        # fmt: on\n    }\n)\npoint_loads\n\n\n\n\n\n\n\n\n\nPoint_Load\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n0\n1\n2\n100000.0\n0.0\n-100000.0\n\n\n\n\n\n\n\n\nImportant is that the column names are the same as in this tutorial, if not, the build function will not recognize the information in the DataFrame’s. The right-hand rule is used for the coordinate system.\n\n\n\n\n\n\nFigure 1: Left and right handed coordinate systems (Qniemiec, CC0, via Wikimedia Commons)\n\n\n\n\nmodel = ifctruss.build(nodes=nodes, bars=bars, point_loads=point_loads)\n\n\ntype(model)\n\nifcopenshell.file.file\n\n\nThat’s it, now you got your ifc! You can also save it to disk.\n\nmodel.write(\"tutorial.ifc\")\n\n\n\n\n\n\n\nTip\n\n\n\nIfcOpenShell provides other cool features you can use instead of simply saving the ifc model to the hard drive. See the documentation of IfcOpenShell for further examples.\n\n\nTo view the created ifc file, click here.\n\n\nBuild using spreadsheet format ods and xlsx\nThere are many other way’s to create a DataFrame that is possible with pandas. One of them is through .ods/.xlsx spreadsheet files. For this, this library provides some helper functions. First install the optional dependencies for ods and xlsx. Subsequently, create a .ods/xlsx template file through this function:\n\nifctruss.save_ods_template(ods_path=\"tutorial.ods\")\n\n\nifctruss.save_xlsx_template(xlsx_path=\"tutorial.xlsx\")\n\nNow you can change in your spreadsheet application the values in the rows or create new rows. Don’t change the column name!\n\nmodel = ifctruss.build_from_ods(ods_path=\"tutorial.ods\")\n\n\nmodel = ifctruss.build_from_xlsx(xlsx_path=\"tutorial.xlsx\")\n\n\ntype(model)\n\nifcopenshell.file.file\n\n\n\n\nView\nSo now you got your ifc file. However, it is really difficult to view your ifc file in a text editor and understand the information from the ifc file regarding your truss model. For this aim, there is the view function from ifctruss.\n\nmodel = ifcopenshell.open(\"tutorial.ifc\")\n\n\ndfs = ifctruss.view(model)\n\n\ndfs.nodes\n\n\n\n\n\n\n\n\n\nNode\nCoordinate_X\nCoordinate_Y\nCoordinate_Z\nTranslational_X\nTranslational_Y\nTranslational_Z\n\n\n\n\n0\n0B1vdFdYn6OAtmCzta63Fv\n0.0\n0.0\n3000.0\nFalse\nTrue\nFalse\n\n\n1\n20teRywIv32PIVE_QfcH5$\n0.0\n0.0\n0.0\nTrue\nTrue\nTrue\n\n\n2\n386TUURITCQgK4gvU3ZUev\n-4000.0\n0.0\n3000.0\nTrue\nTrue\nTrue\n\n\n3\n0jpZm3fSf68vqfLl5AXCjn\n-4000.0\n0.0\n6000.0\nTrue\nTrue\nTrue\n\n\n\n\n\n\n\n\n\ndfs.bars\n\n\n\n\n\n\n\n\n\nBar\nStart_node\nEnd_node\nCross-sectional_area\nModulus_of_elasticity\n\n\n\n\n0\n2WXZhASeL2vgX6m7R1Fz4m\n0B1vdFdYn6OAtmCzta63Fv\n20teRywIv32PIVE_QfcH5$\n1000.0\n1000.0\n\n\n1\n0sDI9H53fBhP4Qiq7QSKzj\n0B1vdFdYn6OAtmCzta63Fv\n386TUURITCQgK4gvU3ZUev\n1000.0\n1000.0\n\n\n2\n1nr3Q4pkDEjeG6YjaSgwtj\n0B1vdFdYn6OAtmCzta63Fv\n0jpZm3fSf68vqfLl5AXCjn\n1000.0\n1000.0\n\n\n\n\n\n\n\n\n\ndfs.point_loads\n\n\n\n\n\n\n\n\n\nPoint_Load\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n0\n0hodc_yBv7sByAX4IJNWYZ\n0B1vdFdYn6OAtmCzta63Fv\n100000.0\n0.0\n-100000.0\n\n\n\n\n\n\n\n\nVoilà! You can view your data in DataFrame’s.\n\n\nSolve\nWith ifctruss it is also possible to solve your truss model! Simply do:\n\nifctruss.solve(model)\n\nAnd now view the result:\n\ndfs = ifctruss.view(model, result_group=True)\n\n\ndfs.displacments\n\n\n\n\n\n\n\n\n\nNode\nDisplacement_X\nDisplacement_Y\nDisplacement_Z\n\n\n\n\n0\n0B1vdFdYn6OAtmCzta63Fv\n214.814815\n0.0\n-195.833333\n\n\n\n\n\n\n\n\n\ndfs.forces\n\n\n\n\n\n\n\n\n\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n0\n20teRywIv32PIVE_QfcH5$\n0.000000\n0.0\n65277.777778\n\n\n1\n386TUURITCQgK4gvU3ZUev\n-53703.703704\n0.0\n0.000000\n\n\n2\n0jpZm3fSf68vqfLl5AXCjn\n-46296.296296\n0.0\n34722.222222\n\n\n\n\n\n\n\n\n\ndfs.normal_forces\n\n\n\n\n\n\n\n\n\nBar\nNormal_force\nType_of_normal_force\n\n\n\n\n0\n2WXZhASeL2vgX6m7R1Fz4m\n-65277.777778\nCompressive force\n\n\n1\n0sDI9H53fBhP4Qiq7QSKzj\n53703.703704\nTensile force\n\n\n2\n1nr3Q4pkDEjeG6YjaSgwtj\n57870.370370\nTensile force\n\n\n\n\n\n\n\n\n\ndfs.theory_type\n\n'FIRST_ORDER_THEORY'\n\n\n\ndfs.is_linear\n\nTrue\n\n\n\nmodel.write(\"tutorial-with-resutls.ifc\")\n\nTo view the created ifc file, click here.",
+    "crumbs": [
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IfcTruss",
+    "section": "",
+    "text": "IfcTruss is an open source (LGPL-3.0-or-later) software library for creating and calculating trusses in the Industry Foundation Classes (IFC) standard. More precisely, the IFC 4.3 version is supported. This version is an ISO standard.\nThe following main functions are provided for building, viewing and solving a truss model in IFC:\n\n\nifctruss.build\nifctruss.view\nifctruss.solve\n\n\nThere are also a few additional side functions that can be used:\n\n\nifctruss.save_ods_template\nifctruss.save_xlsx_template\nifctruss.build_from_ods\nifctruss.build_from_xlsx\nifctruss.save_result\n\n\nTwo solvers are available for calculating the trusses. These solvers can also be used below without IFC:\n\n\nifctruss.solver.direct_stiffness_method\nifctruss.solver.calfem\n\n\nGo to the Getting Started page to learn more about using this library.",
+    "crumbs": [
+      "IfcTruss"
+    ]
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
+    "title": "IfcTruss",
+    "section": "",
+    "text": "IfcTruss is an open source (LGPL-3.0-or-later) software library for creating and calculating trusses in the Industry Foundation Classes (IFC) standard. More precisely, the IFC 4.3 version is supported. This version is an ISO standard.\nThe following main functions are provided for building, viewing and solving a truss model in IFC:\n\n\nifctruss.build\nifctruss.view\nifctruss.solve\n\n\nThere are also a few additional side functions that can be used:\n\n\nifctruss.save_ods_template\nifctruss.save_xlsx_template\nifctruss.build_from_ods\nifctruss.build_from_xlsx\nifctruss.save_result\n\n\nTwo solvers are available for calculating the trusses. These solvers can also be used below without IFC:\n\n\nifctruss.solver.direct_stiffness_method\nifctruss.solver.calfem\n\n\nGo to the Getting Started page to learn more about using this library.",
+    "crumbs": [
+      "IfcTruss"
+    ]
+  },
+  {
+    "objectID": "index.html#projects-using-ifctruss",
+    "href": "index.html#projects-using-ifctruss",
+    "title": "IfcTruss",
+    "section": "Projects Using IfcTruss",
+    "text": "Projects Using IfcTruss\nThese are some of the projects that utilize IfcTruss:\n\nIfcTruss Plugin for KITModelViewer: This is a Python plugin for the KITModelViewer Python API that uses the IfcTruss library for calculating trusses in the Industry Foundation Classes (IFC) standard.\n\nRepository: IfcTruss Plugin\nDescription: The IfcTruss Plugin provides additional functionality to the KITModelViewer, enabling users to analyze truss structures within their IFC models.\n\n\nIf your project also uses IfcTruss, and you’d like it to be featured here, feel free to submit a pull request adding your project to the list!",
+    "crumbs": [
+      "IfcTruss"
+    ]
+  },
+  {
+    "objectID": "index.html#feedback",
+    "href": "index.html#feedback",
+    "title": "IfcTruss",
+    "section": "Feedback",
+    "text": "Feedback\nIf you have any bugs, improvements, or feature requests, please submit an issue. Use the OSArch forum to share anything else. When you share something in the OSArch forum, put the library name in the tag. So that someone else has it easier, if they are looking for a post in the OSArch forum regarding this library.",
+    "crumbs": [
+      "IfcTruss"
+    ]
+  },
+  {
+    "objectID": "index.html#code-of-conduct",
+    "href": "index.html#code-of-conduct",
+    "title": "IfcTruss",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nThis project adheres to the Code of Conduct adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.",
+    "crumbs": [
+      "IfcTruss"
+    ]
+  },
+  {
+    "objectID": "index.html#changelog",
+    "href": "index.html#changelog",
+    "title": "IfcTruss",
+    "section": "Changelog",
+    "text": "Changelog\nAll notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.",
+    "crumbs": [
+      "IfcTruss"
+    ]
+  },
+  {
+    "objectID": "index.html#licence",
+    "href": "index.html#licence",
+    "title": "IfcTruss",
+    "section": "Licence",
+    "text": "Licence\nCopyright © 2023-2024 IfcTruss Contributors\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\nYou should have received a copy of the GNU Lesser General Public License along with this program. If not, see https://www.gnu.org/licenses/.",
+    "crumbs": [
+      "IfcTruss"
+    ]
+  },
+  {
+    "objectID": "00_General/installation.html",
+    "href": "00_General/installation.html",
+    "title": "Installation",
+    "section": "",
+    "text": "The minimum Python version required is 3.11.",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "00_General/installation.html#pip",
+    "href": "00_General/installation.html#pip",
+    "title": "Installation",
+    "section": "pip",
+    "text": "pip\nIfcTruss can be installed via pip from PyPI.\npip install ifctruss\nThis will install the following minimal dependencies:\n\n\n\nName\nLicence\n\n\n\n\nfactcore\nApache-2.0\n\n\nIfcOpenShell\nLGPL-3.0-or-later\n\n\nLark\nMIT\n\n\nNumPy\nModified BSD-3-Clause\n\n\npandas\nBSD-3-Clause\n\n\n\n\nOptional dependencies\n\nCALFEM solver\npip install \"ifctruss[calfem]\"\nThis will install in addition to the minimal install dependencies the following dependence:\n\n\n\nName\nLicence\n\n\n\n\nCALFEM\nMIT\n\n\n\n\n\nOpenDocument Spreadsheet .ods support\npip install \"ifctruss[ods]\"\nThis will install in addition to the minimal install dependencies the following dependence:\n\n\n\nName\nLicence\n\n\n\n\nODFPY\nGPL-2.0-or-later or Apache-2.0\n\n\n\n\n\nOffice Open XML Workbook .xlsx support\npip install \"ifctruss[xlsx]\"\nThis will install in addition to the minimal install dependencies the following dependence:\n\n\n\nName\nLicence\n\n\n\n\nopenpyxl\nMIT",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "02_API/solver.html",
+    "href": "02_API/solver.html",
+    "title": "ifctruss.solver",
+    "section": "",
+    "text": "source\n\n\n\n direct_stiffness_method (nodes:pandas.core.frame.DataFrame,\n                          bars:pandas.core.frame.DataFrame,\n                          point_loads:pandas.core.frame.DataFrame)\n\n\n\n\n\n\n\n\n\n\nType\nDetails\n\n\n\n\nnodes\nDataFrame\nPandas DataFrame with information regarding IfcStructuralPointConnection’s\n\n\nbars\nDataFrame\nPandas DataFrame with information regarding IfcStructuralCurveMember’s\n\n\npoint_loads\nDataFrame\nPandas DataFrame with information regarding IfcStructuralLoadSingleForce’s\n\n\nReturns\nNamedTuple\nNamedTuple with Pandas DataFrame’s and str’s\n\n\n\n\n\n\nnodes = pd.DataFrame(\n    {\n        \"Node\": pd.Series([2, 1, 3, 4], dtype=int),\n        \"Coordinate_X\": pd.Series([0, 0, -4e3, -4e3], dtype=float),\n        \"Coordinate_Y\": pd.Series([0, 0, 0, 0], dtype=float),\n        \"Coordinate_Z\": pd.Series([3e3, 0, 3e3, 6e3], dtype=float),\n        \"Translational_X\": pd.Series([0, 1, 1, 1], dtype=bool),\n        \"Translational_Y\": pd.Series([1, 1, 1, 1], dtype=bool),\n        \"Translational_Z\": pd.Series([0, 1, 1, 1], dtype=bool),\n    }\n)\n\nnodes\n\n\n\n\n\n\n\n\n\nNode\nCoordinate_X\nCoordinate_Y\nCoordinate_Z\nTranslational_X\nTranslational_Y\nTranslational_Z\n\n\n\n\n0\n2\n0.0\n0.0\n3000.0\nFalse\nTrue\nFalse\n\n\n1\n1\n0.0\n0.0\n0.0\nTrue\nTrue\nTrue\n\n\n2\n3\n-4000.0\n0.0\n3000.0\nTrue\nTrue\nTrue\n\n\n3\n4\n-4000.0\n0.0\n6000.0\nTrue\nTrue\nTrue\n\n\n\n\n\n\n\n\n\nbars = pd.DataFrame(\n    {\n        \"Bar\": pd.Series([1, 2, 3], dtype=int),\n        \"Start_node\": pd.Series([2, 2, 2], dtype=int),\n        \"End_node\": pd.Series([1, 3, 4], dtype=int),\n        \"Cross-sectional_area\": pd.Series([1e3, 1e3, 1e3], dtype=float),\n        \"Modulus_of_elasticity\": pd.Series([1e3, 1e3, 1e3], dtype=float),\n    }\n)\n\nbars\n\n\n\n\n\n\n\n\n\nBar\nStart_node\nEnd_node\nCross-sectional_area\nModulus_of_elasticity\n\n\n\n\n0\n1\n2\n1\n1000.0\n1000.0\n\n\n1\n2\n2\n3\n1000.0\n1000.0\n\n\n2\n3\n2\n4\n1000.0\n1000.0\n\n\n\n\n\n\n\n\n\npoint_loads = pd.DataFrame(\n    {\n        # fmt: off\n    \"Point_Load\": pd.Series([1,], dtype=int,),\n    \"Node\": pd.Series([2,], dtype=int,),\n    \"Force_X\": pd.Series([100e3,], dtype=float,),\n    \"Force_Y\": pd.Series([0,], dtype=float,),\n    \"Force_Z\": pd.Series([-100e3,], dtype=float,),\n        # fmt: on\n    }\n)\npoint_loads\n\n\n\n\n\n\n\n\n\nPoint_Load\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n0\n1\n2\n100000.0\n0.0\n-100000.0\n\n\n\n\n\n\n\n\n\nresults = direct_stiffness_method(\n    nodes=nodes, bars=bars, point_loads=point_loads\n)\n\n\nresults.displacments\n\n\n\n\n\n\n\n\n\nNode\nDisplacement_X\nDisplacement_Y\nDisplacement_Z\n\n\n\n\n0\n2\n214.814815\n0.0\n-195.833333\n\n\n\n\n\n\n\n\n\nresults.forces\n\n\n\n\n\n\n\n\n\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n1\n1\n0.000000\n0.0\n65277.777778\n\n\n2\n3\n-53703.703704\n0.0\n0.000000\n\n\n3\n4\n-46296.296296\n0.0\n34722.222222\n\n\n\n\n\n\n\n\n\n(\n    displacments,\n    forces,\n    normal_forces,\n    theory_type,\n    is_linear,\n) = direct_stiffness_method(nodes=nodes, bars=bars, point_loads=point_loads)\n\n\nnormal_forces.style\n\n\n\n\n\n\n\n \nBar\nNormal_force\nType_of_normal_force\n\n\n\n\n0\n1\n-65277.777778\nCompressive force\n\n\n1\n2\n53703.703704\nTensile force\n\n\n2\n3\n57870.370370\nTensile force\n\n\n\n\n\n\n\ntheory_type\n\n'FIRST_ORDER_THEORY'\n\n\n\nis_linear\n\nTrue\n\n\n\nsource\n\n\n\n\n\n calfem (nodes:pandas.core.frame.DataFrame,\n         bars:pandas.core.frame.DataFrame,\n         point_loads:pandas.core.frame.DataFrame)\n\n\n\n\n\n\n\n\n\n\nType\nDetails\n\n\n\n\nnodes\nDataFrame\nPandas DataFrame with information regarding IfcStructuralPointConnection’s\n\n\nbars\nDataFrame\nPandas DataFrame with information regarding IfcStructuralCurveMember’s\n\n\npoint_loads\nDataFrame\nPandas DataFrame with information regarding IfcStructuralLoadSingleForce’s\n\n\nReturns\nNamedTuple\nNamedTuple with Pandas DataFrame’s and str’s\n\n\n\n\n\n\nresults_calfem = calfem(nodes=nodes, bars=bars, point_loads=point_loads)\n\n\nresults_calfem.displacments\n\n\n\n\n\n\n\n\n\nNode\nDisplacement_X\nDisplacement_Y\nDisplacement_Z\n\n\n\n\n0\n2\n214.814815\n0.0\n-195.833333\n\n\n\n\n\n\n\n\n\nresults_calfem.forces\n\n\n\n\n\n\n\n\n\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n1\n1\n0.000000\n0.0\n65277.777778\n\n\n2\n3\n-53703.703704\n0.0\n0.000000\n\n\n3\n4\n-46296.296296\n0.0\n34722.222222\n\n\n\n\n\n\n\n\n\nresults_calfem.normal_forces\n\n\n\n\n\n\n\n\n\nBar\nNormal_force\nType_of_normal_force\n\n\n\n\n0\n1\n-65277.777778\nCompressive force\n\n\n1\n2\n53703.703704\nTensile force\n\n\n2\n3\n57870.370370\nTensile force",
+    "crumbs": [
+      "API",
+      "ifctruss.solver"
+    ]
+  },
+  {
+    "objectID": "02_API/solver.html#solver",
+    "href": "02_API/solver.html#solver",
+    "title": "ifctruss.solver",
+    "section": "",
+    "text": "source\n\n\n\n direct_stiffness_method (nodes:pandas.core.frame.DataFrame,\n                          bars:pandas.core.frame.DataFrame,\n                          point_loads:pandas.core.frame.DataFrame)\n\n\n\n\n\n\n\n\n\n\nType\nDetails\n\n\n\n\nnodes\nDataFrame\nPandas DataFrame with information regarding IfcStructuralPointConnection’s\n\n\nbars\nDataFrame\nPandas DataFrame with information regarding IfcStructuralCurveMember’s\n\n\npoint_loads\nDataFrame\nPandas DataFrame with information regarding IfcStructuralLoadSingleForce’s\n\n\nReturns\nNamedTuple\nNamedTuple with Pandas DataFrame’s and str’s\n\n\n\n\n\n\nnodes = pd.DataFrame(\n    {\n        \"Node\": pd.Series([2, 1, 3, 4], dtype=int),\n        \"Coordinate_X\": pd.Series([0, 0, -4e3, -4e3], dtype=float),\n        \"Coordinate_Y\": pd.Series([0, 0, 0, 0], dtype=float),\n        \"Coordinate_Z\": pd.Series([3e3, 0, 3e3, 6e3], dtype=float),\n        \"Translational_X\": pd.Series([0, 1, 1, 1], dtype=bool),\n        \"Translational_Y\": pd.Series([1, 1, 1, 1], dtype=bool),\n        \"Translational_Z\": pd.Series([0, 1, 1, 1], dtype=bool),\n    }\n)\n\nnodes\n\n\n\n\n\n\n\n\n\nNode\nCoordinate_X\nCoordinate_Y\nCoordinate_Z\nTranslational_X\nTranslational_Y\nTranslational_Z\n\n\n\n\n0\n2\n0.0\n0.0\n3000.0\nFalse\nTrue\nFalse\n\n\n1\n1\n0.0\n0.0\n0.0\nTrue\nTrue\nTrue\n\n\n2\n3\n-4000.0\n0.0\n3000.0\nTrue\nTrue\nTrue\n\n\n3\n4\n-4000.0\n0.0\n6000.0\nTrue\nTrue\nTrue\n\n\n\n\n\n\n\n\n\nbars = pd.DataFrame(\n    {\n        \"Bar\": pd.Series([1, 2, 3], dtype=int),\n        \"Start_node\": pd.Series([2, 2, 2], dtype=int),\n        \"End_node\": pd.Series([1, 3, 4], dtype=int),\n        \"Cross-sectional_area\": pd.Series([1e3, 1e3, 1e3], dtype=float),\n        \"Modulus_of_elasticity\": pd.Series([1e3, 1e3, 1e3], dtype=float),\n    }\n)\n\nbars\n\n\n\n\n\n\n\n\n\nBar\nStart_node\nEnd_node\nCross-sectional_area\nModulus_of_elasticity\n\n\n\n\n0\n1\n2\n1\n1000.0\n1000.0\n\n\n1\n2\n2\n3\n1000.0\n1000.0\n\n\n2\n3\n2\n4\n1000.0\n1000.0\n\n\n\n\n\n\n\n\n\npoint_loads = pd.DataFrame(\n    {\n        # fmt: off\n    \"Point_Load\": pd.Series([1,], dtype=int,),\n    \"Node\": pd.Series([2,], dtype=int,),\n    \"Force_X\": pd.Series([100e3,], dtype=float,),\n    \"Force_Y\": pd.Series([0,], dtype=float,),\n    \"Force_Z\": pd.Series([-100e3,], dtype=float,),\n        # fmt: on\n    }\n)\npoint_loads\n\n\n\n\n\n\n\n\n\nPoint_Load\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n0\n1\n2\n100000.0\n0.0\n-100000.0\n\n\n\n\n\n\n\n\n\nresults = direct_stiffness_method(\n    nodes=nodes, bars=bars, point_loads=point_loads\n)\n\n\nresults.displacments\n\n\n\n\n\n\n\n\n\nNode\nDisplacement_X\nDisplacement_Y\nDisplacement_Z\n\n\n\n\n0\n2\n214.814815\n0.0\n-195.833333\n\n\n\n\n\n\n\n\n\nresults.forces\n\n\n\n\n\n\n\n\n\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n1\n1\n0.000000\n0.0\n65277.777778\n\n\n2\n3\n-53703.703704\n0.0\n0.000000\n\n\n3\n4\n-46296.296296\n0.0\n34722.222222\n\n\n\n\n\n\n\n\n\n(\n    displacments,\n    forces,\n    normal_forces,\n    theory_type,\n    is_linear,\n) = direct_stiffness_method(nodes=nodes, bars=bars, point_loads=point_loads)\n\n\nnormal_forces.style\n\n\n\n\n\n\n\n \nBar\nNormal_force\nType_of_normal_force\n\n\n\n\n0\n1\n-65277.777778\nCompressive force\n\n\n1\n2\n53703.703704\nTensile force\n\n\n2\n3\n57870.370370\nTensile force\n\n\n\n\n\n\n\ntheory_type\n\n'FIRST_ORDER_THEORY'\n\n\n\nis_linear\n\nTrue\n\n\n\nsource\n\n\n\n\n\n calfem (nodes:pandas.core.frame.DataFrame,\n         bars:pandas.core.frame.DataFrame,\n         point_loads:pandas.core.frame.DataFrame)\n\n\n\n\n\n\n\n\n\n\nType\nDetails\n\n\n\n\nnodes\nDataFrame\nPandas DataFrame with information regarding IfcStructuralPointConnection’s\n\n\nbars\nDataFrame\nPandas DataFrame with information regarding IfcStructuralCurveMember’s\n\n\npoint_loads\nDataFrame\nPandas DataFrame with information regarding IfcStructuralLoadSingleForce’s\n\n\nReturns\nNamedTuple\nNamedTuple with Pandas DataFrame’s and str’s\n\n\n\n\n\n\nresults_calfem = calfem(nodes=nodes, bars=bars, point_loads=point_loads)\n\n\nresults_calfem.displacments\n\n\n\n\n\n\n\n\n\nNode\nDisplacement_X\nDisplacement_Y\nDisplacement_Z\n\n\n\n\n0\n2\n214.814815\n0.0\n-195.833333\n\n\n\n\n\n\n\n\n\nresults_calfem.forces\n\n\n\n\n\n\n\n\n\nNode\nForce_X\nForce_Y\nForce_Z\n\n\n\n\n1\n1\n0.000000\n0.0\n65277.777778\n\n\n2\n3\n-53703.703704\n0.0\n0.000000\n\n\n3\n4\n-46296.296296\n0.0\n34722.222222\n\n\n\n\n\n\n\n\n\nresults_calfem.normal_forces\n\n\n\n\n\n\n\n\n\nBar\nNormal_force\nType_of_normal_force\n\n\n\n\n0\n1\n-65277.777778\nCompressive force\n\n\n1\n2\n53703.703704\nTensile force\n\n\n2\n3\n57870.370370\nTensile force",
+    "crumbs": [
+      "API",
+      "ifctruss.solver"
+    ]
+  },
+  {
+    "objectID": "02_API/solver.html#comparison",
+    "href": "02_API/solver.html#comparison",
+    "title": "ifctruss.solver",
+    "section": "Comparison",
+    "text": "Comparison\n\nResulate\nTest whether calfem calculates the same results as direct_stiffness_method:\n\nimport numpy as np\n\n\nassert np.all(\n    np.isclose(\n        results.normal_forces[\"Normal_force\"],\n        results_calfem.normal_forces[\"Normal_force\"],\n    )\n)\n\n\nassert np.all(\n    np.isclose(results.forces[\"Force_X\"], results_calfem.forces[\"Force_X\"])\n)\n\n\nassert np.all(\n    np.isclose(results.forces[\"Force_Y\"], results_calfem.forces[\"Force_Y\"])\n)\n\n\nassert np.all(\n    np.isclose(results.forces[\"Force_Z\"], results_calfem.forces[\"Force_Z\"])\n)\n\n\nassert np.all(\n    np.isclose(\n        results.displacments[\"Displacement_X\"],\n        results_calfem.displacments[\"Displacement_X\"],\n    )\n)\n\n\nassert np.all(\n    np.isclose(\n        results.displacments[\"Displacement_Y\"],\n        results_calfem.displacments[\"Displacement_Y\"],\n    )\n)\n\n\nassert np.all(\n    np.isclose(\n        results.displacments[\"Displacement_Z\"],\n        results_calfem.displacments[\"Displacement_Z\"],\n    )\n)\n\n\n\nSpeed\nCompare the speed of direct_stiffness_methodand calfem\n\nimport timeit\nimport statistics\n\n\nexecution_times = timeit.repeat(\n    lambda: direct_stiffness_method(\n        nodes=nodes, bars=bars, point_loads=point_loads\n    ),\n    number=200,\n    repeat=7,\n)\n\nmean_time = statistics.mean(execution_times)\nstdev_time = statistics.stdev(execution_times)\n\nprint(\"Mean execution time:\", mean_time, \"seconds\")\nprint(\"Standard deviation:\", stdev_time, \"seconds\")\n\nMean execution time: 2.5156487490000603 seconds\nStandard deviation: 0.3370494115779167 seconds\n\n\n\nexecution_times = timeit.repeat(\n    lambda: calfem(nodes=nodes, bars=bars, point_loads=point_loads),\n    number=200,\n    repeat=7,\n)\n\nmean_time = statistics.mean(execution_times)\nstdev_time = statistics.stdev(execution_times)\n\nprint(\"Mean execution time:\", mean_time, \"seconds\")\nprint(\"Standard deviation:\", stdev_time, \"seconds\")\n\nMean execution time: 3.4454708377145704 seconds\nStandard deviation: 0.19648677400024356 seconds",
+    "crumbs": [
+      "API",
+      "ifctruss.solver"
+    ]
+  },
+  {
+    "objectID": "04_History_and_Changelog/history_of_the_software.html",
+    "href": "04_History_and_Changelog/history_of_the_software.html",
+    "title": "History of the software",
+    "section": "",
+    "text": "IfcTruss was created in the late 2023 by Ashwin Kulasegaram at Karlsruhe University of Applied Sciences (HKA, see https://www.h-ka.de/) in Germany as part of his bachelor’s thesis in the Civil Engineering Tri-national Degree Program. The bachelor thesis was supervised by Prof. Dr.-Ing. Reinhard Wimmer and Dipl.-Ing. Andreas Geiger.",
+    "crumbs": [
+      "History of the software"
+    ]
+  }
+]
